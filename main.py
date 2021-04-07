@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request, render_template, redirect
 import os
 app = Flask(__name__)
-app.config["VIDEO_UPLOADS"] = "C:/Users/anves/PycharmProjects/flaskApp"
+app.config["VIDEO_UPLOADS"] = "C:/Training"
 
 # Declare your first route
 @app.route('/upload', methods=['GET', 'POST'])
